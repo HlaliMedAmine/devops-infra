@@ -1,0 +1,34 @@
+# === Ansible ===
+*.retry
+*.log
+*.vault
+*.cfg
+*.env
+__pycache__/
+
+# Ignore secrets if any
+ansible/group_vars/*.vault
+ansible/group_vars/*.env
+
+# === Terraform ===
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variable files if they contain secrets
+terraform/*.tfvars.json
+
+# === General ===
+*.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.env
+.vscode/
+
+# === Ansible Code ===
+ansible/
+

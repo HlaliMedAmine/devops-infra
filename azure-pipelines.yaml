@@ -1,0 +1,55 @@
+trigger:
+  paths:
+    include:
+      - terraform/**
+  branches:
+    include:
+      - main
+
+stages:
+
+- stage: Terraform
+  displayName: 'Provision Infrastructure'
+  jobs:
+  - job: Terraform_Apply
+    displayName: 'Terraform Apply'
+    pool:
+      name: 'self-hosted-agent-pool'
+    steps:
+ 
+    # Not needed for hosted vm
+    # - task: UsePythonVersion@0
+    #   inputs:
+    #     versionSpec: '3.x'
+
+    - task: DownloadSecureFile@1
+      name: download_ssh_key
+      inputs:
+        secureFile: 'id_rsa.pub'
+
+    - script: |
+        echo "Copying SSH public key into Terraform module"
+
+        mkdir -p ~/.ssh
+        cp $(download_ssh_key.secureFilePath) ~/.ssh/id_rsa.pub
+
+        # Now copy into Terraform module path
+        cp $(download_ssh_key.secureFilePath) terraform/modules/compute/id_rsa.pub
+
+        echo "Listing contents of terraform/modules/compute/"
+        ls -al terraform/modules/compute/
+      displayName: 'Extract SSH Public Key for Terraform'
+
+    - task: AzureCLI@2
+      inputs:
+        azureSubscription: 'it-azure-connection'
+        scriptType: bash
+        scriptLocation: inlineScript
+        workingDirectory: $(System.DefaultWorkingDirectory)/terraform
+        inlineScript: |
+          echo "##[group]Terraform Init/Plan/Apply"
+          cd terraform
+          terraform init -input=false 
+          terraform plan -input=false -var-file="envs/dev.tfvars"
+          terraform apply -input=false -auto-approve -var-file="envs/dev.tfvars"
+          echo "##[endgroup]"
