@@ -8,8 +8,6 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 # 📸 Project Images (Organized by Progress Steps)
 
-> ⚠️ **Replace each placeholder with your actual images.**  
-> Example: `![Terraform Pipeline](images/terraform-pipeline.png)`
 
 ## **1️⃣ Terraform Infrastructure Deployment**
 - Terraform Plan & Apply  
@@ -18,7 +16,6 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 **Images:**  
 - `![Terraform Pipeline](images/terraform-pipeline.png)`  
-- `![Azure Resources](images/azure-resources.png)`
 
 ---
 
@@ -29,7 +26,6 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 **Images:**  
 - `![Ansible Pipeline](images/ansible-pipeline.png)`  
-- `![Ansible Logs](images/ansible-logs.png)`
 
 ---
 
@@ -41,7 +37,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network security
 
 **Images:**  
-- `![Azure Resource Group](images/azure-rg.png)`
+- `![Azure Resource Group](images/azure-resources.png)`
 
 ---
 
@@ -51,8 +47,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - API connectivity
 
 **Images:**  
-- `![Frontend Running](images/frontend.png)`  
-- `![Application UI](images/app-ui.png)`
+- `![Frontend Running](images/application.png)`  
+
 
 ---
 
@@ -62,8 +58,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Logs & service
 
 **Images:**  
-- `![PM2 Status](images/pm2-status.png)`  
-- `![Backend Terminal](images/backend-terminal.png)`
+- `![PM2 Status](images/server.png)`  
 
 ---
 
@@ -74,8 +69,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Terraform modules
 
 **Images:**  
-- `![VSCode Pipeline](images/vscode-pipeline.png)`  
-- `![Folder Structure](images/vscode-structure.png)`
+- `![VSCode Pipeline](images/code.png)`  
 
 ---
 
