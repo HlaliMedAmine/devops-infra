@@ -19,7 +19,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network, VMs, NSG
 
 **Images:**  
-![Terraform](./images/aterraform-pipeline.png)
+![Terraform](./images/terraform-pipeline.png)
 
 ---
 
@@ -29,7 +29,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - PM2 restart & handlers
 
 **Images:**  
-![Ansible](./images/aansible-pipeline.png)
+![Ansible](./images/ansible-pipeline.png)
 
 
 ---
@@ -42,7 +42,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network security
 
 **Images:**  
-![Azure](./images/aazure-resources.png)
+![Azure](./images/azure-resources.png)
 
 
 ---
@@ -244,8 +244,10 @@ It demonstrates real skills that companies expect from a **DevOps Engineer**.
 
 ---
 
-## ✨ Author
-**Mohamed Amine HLALI**  
-DevOps Engineer  
-Azure | Terraform | Ansible | Linux | CI/CD
+## 👨‍💻 Engineer Information
+
+**Mohamed Amine Hlali**  
+*DevOps & Cloud Engineer*  
+Expertise: AWS, Kubernetes, Docker, GitLab CI/CD, Monitoring, IaC, SAST & Code Quality  
+
 
