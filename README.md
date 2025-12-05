@@ -6,7 +6,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 ## 📘 Architecture Overview
 
-![Architecture](./images/architecture.png)
+![Architecture](./images/architecture)
 
 ---
 
@@ -19,7 +19,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network, VMs, NSG
 
 **Images:**  
-- (./images/terraform-pipeline.png)
+- (./images/terraform-pipeline)
 
 ---
 
