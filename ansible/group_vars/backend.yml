@@ -7,4 +7,4 @@ db_password: "DevSecureDBPassword123!"
 db_name: "book_review_db"
 
 jwt_secret: "your_jwt_secret"
-allowed_origins: "http://172.176.176.229:3000"
+allowed_origins: "http://135.119.146.230:3000"
