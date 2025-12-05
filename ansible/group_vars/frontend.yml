@@ -1,4 +1,4 @@
 frontend_repo_url: "https://github.com/HlaliMedAmine/devops-infra.git"
 frontend_app_port: 3000
-backend_api_url: "http://172.176.146.230:3001"
+backend_api_url: "http://135.119.146.230:3001"
 
