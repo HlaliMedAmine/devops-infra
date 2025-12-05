@@ -4,6 +4,10 @@
 This project demonstrates a complete **Production-Ready DevOps pipeline** deployed on Microsoft Azure using Terraform, Ansible, Azure DevOps, GitHub, PM2, and Linux servers.  
 It includes provisioning infrastructure, deploying backend & frontend applications, and automating configuration using best DevOps practices.
 
+## 📘 Architecture Overview
+
+![Architecture](./images/architecture.png)
+
 ---
 
 # 📸 Project Images (Organized by Progress Steps)
@@ -15,7 +19,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network, VMs, NSG
 
 **Images:**  
-- `![Terraform Pipeline](images/terraform-pipeline.png)`  
+- (./images/terraform-pipeline.png)
 
 ---
 
@@ -25,7 +29,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - PM2 restart & handlers
 
 **Images:**  
-- `![Ansible Pipeline](images/ansible-pipeline.png)`  
+- (./images/ansible-pipeline.png) 
 
 ---
 
@@ -37,7 +41,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network security
 
 **Images:**  
-- `![Azure Resource Group](images/azure-resources.png)`
+- (./images/azure-resources.png)
 
 ---
 
@@ -47,7 +51,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - API connectivity
 
 **Images:**  
-- `![Frontend Running](images/application.png)`  
+- (./images/application.png) 
 
 
 ---
@@ -58,7 +62,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Logs & service
 
 **Images:**  
-- `![PM2 Status](images/server.png)`  
+- (./images/server.png)
 
 ---
 
@@ -69,7 +73,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Terraform modules
 
 **Images:**  
-- `![VSCode Pipeline](images/code.png)`  
+- (./images/code.png)
 
 ---
 
