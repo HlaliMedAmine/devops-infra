@@ -30,4 +30,5 @@ terraform/*.tfvars.json
 .vscode/
 
 # === Ansible Code ===
+ansible/
 
