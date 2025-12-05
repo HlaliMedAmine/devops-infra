@@ -12,7 +12,7 @@ stages:
       - job: App_Deployment
         displayName: "Run Ansible Playbook to Deploy App"
         pool:
-          name: "self-hosted-agent-pool"
+          name: "linux-hosted-agent"
 
         steps:
           - script: |
