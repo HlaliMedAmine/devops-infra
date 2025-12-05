@@ -6,8 +6,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 ## 📘 Architecture Overview
 
-![Architecture](./images/architecture)
-![ec](./images/application.png)
+
 
 ---
 
@@ -20,7 +19,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network, VMs, NSG
 
 **Images:**  
-- (./images/terraform-pipeline)
+![Terraform](./images/aterraform-pipeline.png)
 
 ---
 
@@ -30,7 +29,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - PM2 restart & handlers
 
 **Images:**  
-- (./images/ansible-pipeline.png) 
+![Ansible](./images/aansible-pipeline.png)
+
 
 ---
 
@@ -42,7 +42,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Network security
 
 **Images:**  
-- (./images/azure-resources.png)
+![Azure](./images/aazure-resources.png)
+
 
 ---
 
@@ -52,7 +53,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - API connectivity
 
 **Images:**  
-- (./images/application.png) 
+![Azure](./images/application.png)
+
 
 
 ---
@@ -63,7 +65,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Logs & service
 
 **Images:**  
-- (./images/server.png)
+![Server](./images/server.png)
+
 
 ---
 
@@ -74,7 +77,8 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 - Terraform modules
 
 **Images:**  
-- (./images/code.png)
+![VS CODE](./images/code.png)
+
 
 ---
 
