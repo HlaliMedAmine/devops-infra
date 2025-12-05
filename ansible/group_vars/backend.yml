@@ -1,9 +1,9 @@
 backend_app_port: 3001
 backend_repo_url: "https://github.com/HlaliMedAmine/devops-infra.git"
 
-db_host: "localhost"
-db_user: "mysqladmin"
-db_password: "DevSecureDBPassword123!"
+db_host: "172.176.176.229"
+db_user: "myadmin"
+db_password: "DevSecureDBPassword123"
 db_name: "book_review_db"
 
 jwt_secret: "your_jwt_secret"
