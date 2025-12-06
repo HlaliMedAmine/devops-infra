@@ -6,7 +6,7 @@ It includes provisioning infrastructure, deploying backend & frontend applicatio
 
 ## 📘 Architecture Overview
 
-
+![Diagram](./images/diagram.png)
 
 ---
 
